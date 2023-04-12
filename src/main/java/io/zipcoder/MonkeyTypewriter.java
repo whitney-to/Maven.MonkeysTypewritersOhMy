@@ -37,8 +37,6 @@ public class MonkeyTypewriter {
         Thread t9 = new Thread(sc); t9.start();
         Thread t10 = new Thread(sc); t10.start();
 
-
-
         // This wait is here because main is still a thread and we want the main method to print the finished copies
         // after enough time has passed.
         try {
